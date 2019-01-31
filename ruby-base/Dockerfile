@@ -8,4 +8,6 @@ build-base \
 gcc \
 wget \
 git \
-mariadb-dev	
+mariadb-dev
+
+RUN rm -rf /var/cache/apk
