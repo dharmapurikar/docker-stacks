@@ -8,6 +8,8 @@ build-base \
 gcc \
 wget \
 git \
-mariadb-dev
+mariadb-dev \
+nodejs \
+tzdata
 
 RUN rm -rf /var/cache/apk
