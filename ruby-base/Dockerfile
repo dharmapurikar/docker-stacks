@@ -9,4 +9,7 @@ wget \
 git \
 mariadb-dev \
 nodejs \
-tzdata
+tzdata \
+curl \
+curl-dev \
+ruby-dev
