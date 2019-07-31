@@ -9,6 +9,9 @@ RUN apk add --no-cache --virtual build-dependencies \
   git \
   mariadb-dev \
   nodejs \
-  tzdata
-
-RUN apk add --no-cache imagemagick6 imagemagick6-dev imagemagick6-c++
+  tzdata \
+  imagemagick6 \
+  imagemagick6-dev \
+  imagemagick6-c++ \
+  openjdk8-jre \
+  bash
