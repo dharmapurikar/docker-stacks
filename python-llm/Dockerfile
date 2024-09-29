@@ -7,14 +7,5 @@ RUN apt-get update && apt-get install -y curl zsh
 # Install Poetry
 RUN pip install --upgrade pip && pip install poetry
 
-# Set the working directory
-WORKDIR /app
-
-# # Copy the project files
-# COPY . .
-
-# # Install project dependencies
-# RUN poetry install
-
-# Set the entrypoint to use the virtual environment
-ENTRYPOINT ["/bin/zsh"]
+# Set the default command to use the virtual environment
+CMD ["python"]
