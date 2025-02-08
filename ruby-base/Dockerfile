@@ -1,4 +1,4 @@
-FROM ruby:3.3.0-alpine
+FROM ruby:3.3-alpine
 
 LABEL maintainer="sachin@dharmapurikar.in"
 
